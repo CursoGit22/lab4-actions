@@ -1,9 +1,9 @@
-name: Continuos Deployment workflow
+name: CD-Despregamento
 
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   cd:
